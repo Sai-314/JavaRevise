@@ -27,7 +27,7 @@ class myList {
 
     public void remove() {
 
-        System.out.println("Hello");
+        System.out.println("Helloo");
 
     }
 
