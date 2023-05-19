@@ -9,6 +9,8 @@ public class TestMain {
         List<Student> st = new ArrayList<Student>();
 
         Student s1 = new Student();
+
+
         s1.id = 1;
         s1.name = "Sai";
         s1.college = "GIET";
@@ -26,7 +28,7 @@ public class TestMain {
         st.add(s3);
 
         for(Student s : st) {
-            System.out.println(s);
+            System.out.println(s.toString());
         }
 
         if(s1.equals(s3)){

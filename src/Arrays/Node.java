@@ -1,7 +1,5 @@
 package Arrays;
 
-import java.util.Iterator;
-
 public class Node {
     int data;
     Node nextNode;
@@ -22,13 +20,7 @@ class myList {
             temp = b; //
         }
         display(b);
-        remove();
-    }
-
-    public void remove() {
-
-        System.out.println("Helloo");
-
+      //  remove();
     }
 
     public void display(Node b) {
@@ -38,7 +30,6 @@ class myList {
             temp = temp.nextNode;
         }
     }
-
 
     public static void main(String[] args) {
         myList list = new myList();

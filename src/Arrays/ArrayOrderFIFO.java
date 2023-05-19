@@ -1,6 +1,6 @@
 package Arrays;
 
-public class ArrayOrderApproach2 {
+public class ArrayOrderFIFO {
 
     int arr[] = new int[5];
     int cursor = -1;
@@ -33,7 +33,7 @@ public class ArrayOrderApproach2 {
     }
     public static void main(String[] args) {
 
-        ArrayOrderApproach2 ao1 = new ArrayOrderApproach2();
+        ArrayOrderFIFO ao1 = new ArrayOrderFIFO();
 
         int a1  = ao1.add(10);
         int a2  = ao1.add(30);

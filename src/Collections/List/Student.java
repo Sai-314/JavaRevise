@@ -8,7 +8,6 @@ public class Student {
     String name;
     String college;
 
-
     public int getId() {
         return id;
     }
@@ -36,14 +35,14 @@ public class Student {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
+        if (!(o instanceof Student)) return false;
         Student student = (Student) o;
-        return id == student.id && name.equals(student.name) && college.equals(student.college);
+        return getId() == student.getId() && getName().equals(student.getName()) && getCollege().equals(student.getCollege());
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, name, college);
+        return Objects.hash(getId(), getName(), getCollege());
     }
 
     @Override
