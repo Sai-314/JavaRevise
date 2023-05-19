@@ -2,7 +2,7 @@ package Java8Features;
 
 import java.util.function.Function;
 
-public class FunctionSumOddNum {
+public class SumOfOddNum {
 
     public static void main(String[] args) {
 

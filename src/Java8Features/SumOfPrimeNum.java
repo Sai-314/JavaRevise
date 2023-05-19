@@ -2,7 +2,7 @@ package Java8Features;
 
 import java.util.function.Function;
 
-public class FunctionSumPrimeNum {
+public class SumOfPrimeNum {
 
     public static void main(String[] args) {
 

@@ -2,7 +2,7 @@ package Java8Features;
 
 import java.util.function.Function;
 
-public class FunctionCheckPrimeNum {
+public class CheckPrimeNum {
 
     public static void main(String[] args) {
         Function<Integer, Boolean> isPrime = x -> {

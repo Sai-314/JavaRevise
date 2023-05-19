@@ -2,7 +2,7 @@ package Java8Features;
 
 import java.util.function.Function;
 
-public class FunctionSumEvenNum {
+public class SumOfEvenNum {
 
 
     public static void main(String[] args) {

@@ -2,7 +2,7 @@ package Java8Features;
 
 import java.util.function.Function;
 
-public class FunctionCheckEven {
+public class CheckEvenNum {
 
     public static void main(String[] args) {
 
