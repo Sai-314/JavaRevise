@@ -16,6 +16,4 @@ public class CheckEvenNum {
         return b;
 
     }
-
-
 }
