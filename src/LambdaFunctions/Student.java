@@ -1,8 +1,9 @@
 package LambdaFunctions;
 
+import java.util.Comparator;
 import java.util.Objects;
 
-public class Student {
+public class Student implements Comparable {
 
     int id;
     String name;
@@ -41,6 +42,7 @@ public class Student {
         this.grade = grade;
     }
 
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -63,4 +65,23 @@ public class Student {
                 ", grade='" + grade + '\'' +
                 '}';
     }
+
+    @Override
+    public int compareTo(Object n) {
+        Student s = (Student) n;
+        return this.name.compareTo(s.name);
+    }
+
+    public int compareId(Object i){
+        Student s = (Student)i;
+        this.compareTo(i);
+        return Integer.compare(this.id, s.id);
+    }
+
+    public int compareMarks(Object m){
+        Student s = (Student)m;
+        this.compareTo(m);
+        return Integer.compare(this.marks, s.marks);
+    }
+
 }
